@@ -30,8 +30,8 @@ const_value = 1
 	const BLASTOISE    ; $1C
 	const PINSIR       ; $1D
 	const TANGELA      ; $1E
-	const MISSINGNO_1F ; $1F
-	const MISSINGNO_20 ; $20
+	const ORBALLOON    ; $1F
+	const NEEDLER      ; $20
 	const GROWLITHE    ; $21
 	const ONIX         ; $22
 	const FEAROW       ; $23
@@ -49,19 +49,19 @@ const_value = 1
 	const PSYDUCK      ; $2F
 	const DROWZEE      ; $30
 	const GOLEM        ; $31
-	const MISSINGNO_32 ; $32
+	const KREEP        ; $32
 	const MAGMAR       ; $33
-	const MISSINGNO_34 ; $34
+	const BUCKSTOP     ; $34
 	const ELECTABUZZ   ; $35
 	const MAGNETON     ; $36
 	const KOFFING      ; $37
-	const MISSINGNO_38 ; $38
+	const ROARDAN      ; $38
 	const MANKEY       ; $39
 	const SEEL         ; $3A
 	const DIGLETT      ; $3B
 	const TAUROS       ; $3C
-	const MISSINGNO_3D ; $3D
-	const MISSINGNO_3E ; $3E
+	const JAWKRAKEN    ; $3D
+	const GANDESHA 	   ; $3E
 	const MISSINGNO_3F ; $3F
 	const FARFETCHD    ; $40
 	const VENONAT      ; $41

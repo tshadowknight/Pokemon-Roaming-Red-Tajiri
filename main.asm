@@ -938,6 +938,9 @@ INCLUDE "engine/menu/randomizer.asm"
 
 INCLUDE "data/baseStats/missingno.asm"
 
+
+
+
 SECTION "bank11",ROMX,BANK[$11]
 
 INCLUDE "data/mapHeaders/lavendertown.asm"
@@ -2124,4 +2127,25 @@ SECTION "Bank2D",ROMX,BANK[$2D]
 INCLUDE "engine/evos_moves.asm"
 
 SECTION "Bank2E",ROMX,BANK[$2E]
+
+OrballoonPicFront::    INCBIN "pic/bmon/tangela.pic"
+OrballoonPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+NeedlerPicFront::    INCBIN "pic/bmon/tangela.pic"
+NeedlerPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+KreepPicFront::    INCBIN "pic/bmon/tangela.pic"
+KreepPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+BuckstopPicFront::    INCBIN "pic/bmon/tangela.pic"
+BuckstopPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+RoardanPicFront::    INCBIN "pic/bmon/tangela.pic"
+RoardanPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+JawkrakenPicFront::    INCBIN "pic/bmon/tangela.pic"
+JawkrakenPicBack::     INCBIN "pic/bmon/tangela.pic"
+
+GandeshaPicFront::    INCBIN "pic/bmon/tangela.pic"
+GandeshaPicBack::     INCBIN "pic/bmon/tangela.pic"
 
