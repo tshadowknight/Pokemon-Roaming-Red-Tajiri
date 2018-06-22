@@ -151,5 +151,12 @@ const_value = 1
 	const DEX_DRAGONITE  ; 149
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
+	const DEX_ORBALLOON  ; 152
+	const DEX_NEEDLER  	 ; 153
+	const DEX_KREEP  	 ; 154
+	const DEX_BUCKSTOP	 ; 155
+	const DEX_ROARDAN	 ; 156
+	const DEX_JAWKRAKEN	 ; 157
+	const DEX_GANDESHA	 ; 158
 
-NUM_POKEMON    EQU 151
+NUM_POKEMON    EQU 158
