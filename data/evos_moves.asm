@@ -722,10 +722,15 @@ Mon114_EvosMoves:
 
 
 Mon152_EvosMoves:
-;MISSINGNO
+;ORBALLOON
 ;Evolutions
 	db 0
 ;Learnset
+	db 20, SONICBOOM
+	db 24, MINIMIZE
+	db 30, RECOVER
+	db 34, RAZOR_WIND
+	db 42, AMNESIA
 	db 0
 
 Mon153_EvosMoves:
