@@ -576,8 +576,8 @@ GetMonHeader::
 	ld b,$77 ; size of Aerodactyl fossil sprite
 	cp FOSSIL_AERODACTYL ; Aerodactyl fossil
 	jr z,.specialID
-	cp a,MEW
-	jr z,.mew	
+	;cp a,MEW
+	;jr z,.mew	
 	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a,[wd11e]
 	cp a,0
@@ -766,6 +766,10 @@ UncompressMonSprite::
 	ld a, BANK(MissingnoFrontPicBlob)
 	jr z,.GotBank
 	ld a,b
+	cp ORBALLOON
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
 	cp TANGELA + 1
 	ld a,BANK(TangelaPicFront)
 	jr c,.GotBank
@@ -780,7 +784,7 @@ UncompressMonSprite::
 	ld a,b
 	cp STARMIE + 1
 	ld a,BANK(StarmiePicFront)
-	jr c,.GotBank  
+	jr c,.GotBank  	
 	
 	ld a,BANK(VictreebelPicFront)
 .GotBank
