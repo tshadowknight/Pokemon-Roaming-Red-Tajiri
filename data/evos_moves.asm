@@ -734,10 +734,16 @@ Mon152_EvosMoves:
 	db 0
 
 Mon153_EvosMoves:
-;MISSINGNO
+;NEEDLER
 ;Evolutions
 	db 0
-;Learnset
+;Learnset	
+	db 16, GROWTH
+	db 21, PIN_MISSILE
+	db 26, LEER
+	db 30, LEECH_SEED
+	db 37, VINE_WHIP
+	db 43, SPIKE_CANNON
 	db 0
 
 Mon058_EvosMoves:
@@ -1042,10 +1048,16 @@ Mon076_EvosMoves:
 	db 0
 
 Mon154_EvosMoves:
-;MISSINGNO
+;KREEP
 ;Evolutions
 	db 0
 ;Learnset
+	db 17, FOCUS_ENERGY
+	db 22, WATER_GUN
+	db 26, HYPER_FANG
+	db 32, SLASH
+	db 40, SCREECH
+	db 45, SUPER_FANG
 	db 0
 
 Mon126_EvosMoves:
@@ -1068,10 +1080,15 @@ Mon126_EvosMoves:
 
 
 Mon155_EvosMoves:
-;MISSINGNO
+;BUCKSTOP
 ;Evolutions
 	db 0
 ;Learnset
+	db 36, STOMP
+	db 40, LEER
+	db 44, AGILITY
+	db 49, THRASH
+	db 56, DOUBLE_EDGE
 	db 0
 
 Mon125_EvosMoves:
@@ -1126,10 +1143,16 @@ Mon109_EvosMoves:
 	db 0
 
 Mon156_EvosMoves:
-;MISSINGNO
+;ROARDAN
 ;Evolutions
 	db 0
 ;Learnset
+	db 28, BITE
+	db 35, SLASH
+	db 41, SCREECH
+	db 46, FLAMETHROWER
+	db 55, STOMP
+	db 64, HYPER_BEAM
 	db 0
 
 Mon056_EvosMoves:
@@ -1206,17 +1229,26 @@ Mon128_EvosMoves:
 
 
 Mon157_EvosMoves:
-;MISSINGNO
+;JAWKRAKEN
 ;Evolutions
 	db 0
 ;Learnset
+	db 27, WATER_GUN
+	db 33, SHARPEN
+	db 39, BITE
+	db 44, HYDRO_PUMP
+	db 51, HORN_DRILL
 	db 0
 
 Mon158_EvosMoves:
-;MISSINGNO
+;GANDESHA
 ;Evolutions
 	db 0
 ;Learnset
+	db 42, RECOVER
+	db 47, EARTHQUAKE
+	db 53, AMNESIA
+	db 60, PSYCHIC
 	db 0
 
 Mon159_EvosMoves:
