@@ -1,0 +1,519 @@
+Format
+
+Name Jpn / Name Eng
+Index Number
+Type1 / Type2
+Height / Weight
+Menu Sprite [Pokemon]
+SGB Palette [Pokemon Color(s)]
+Base / Pitch / Length
+HP / Atk / Def / Spc / Spe
+EXP Rate
+Catch Rate
+General Area
+
+Species Type
+Dex Line 1
+Dex Line 2
+Dex Line 3
+
+Dex Line 4
+Dex Line 5
+Dex Line 6
+
+- Starting Move
+101 Level Move
+
+TM56 Example
+HM06 Example
+
+----------------------------------------
+
+
+ギャオーン / Roardan
+0x1F
+Dragon / Dragon
+7'09" / 507.1
+Rhydon
+Golem Grey
+0F 00 80
+105 / 110 / 60 / 105 / 45
+Slow
+45
+Game Corner High Price, Cerulean Cave Very Rare
+
+Dragon Pokemon
+This POKéMON is
+usually very
+peaceful, but when
+	 
+provoked it
+becomes a force
+of nature	
+
+Original movepool:
+- Dragon Rage
+- Leer
+28 Bite
+35 Slash
+41 Screech
+46 Flamethrower
+55 Stomp
+64 Hyper Beam
+
+Roaming Red adjusted movepool:
+- BITE
+- LEER
+13 EMBER
+19 SLASH
+23 SCREECH
+28 BODY_SLAM
+34 FLAMETHROWER
+38 SWORDS_DANCE
+42 EARTHQUAKE
+50 HYPER_BEAM
+
+TM01 Mega Punch
+TM03 Swords Dance
+TM05 Mega Kick
+TM06 Toxic
+TM08 Body Slam
+TM09 Take Down
+TM10 Double Edge
+TM13 Ice Beam
+TM14 Blizzard
+TM15 Hyper Beam
+TM16 Pay Day
+TM17 Submission
+TM18 Counter
+TM19 Seismic Toss
+TM20 Rage
+TM23 Dragon Rage
+TM24 Thunderbolt
+TM25 Thunder
+TM26 Earthquake
+TM27 Fissure
+TM28 Dig
+TM31 Mimic
+TM32 Double Team
+TM34 Bide
+TM38 Fire Blast
+TM39 Swift
+TM40 Skull Bash
+TM44 Rest
+TM45 Thunder Wave
+TM48 Rock Slide
+TM50 Substitute
+HM01 Cut
+HM03 Surf
+HM04 Strength
+
+
+デイアー / Buckstop
+0x38
+Normal / Normal
+4'04" / 189.6
+Tauros
+Golem Grey
+15 90 A5
+75 / 95 / 60 / 85 / 85
+Slow
+45
+Route 23 Rare
+
+New Species Pokemon
+For years BUCKSTOP
+was considered a
+myth, but then a
+ 
+large herd of them
+were found in the
+nothern woods
+
+Original movepool:
+- Horn Attack
+36 Stomp
+40 Leer
+44 Agility
+49 Thrash
+56 Double Edge
+
+Roaming Red adjusted movepool:
+- HORN_ATTACK
+- LEER 
+17 STOMP
+21 AGILITY
+27 THRASH
+31 DOUBLE_EDGE
+35 THUNDERBOLT
+41 EARTHQUAKE
+46 PSYCHIC
+50 HYPER_BEAM
+
+TM03 Swords Dance
+TM05 Mega Kick
+TM06 Toxic
+TM07 Horn Drill
+TM08 Body Slam
+TM09 Take Down
+TM10 Double Edge
+TM15 Hyper Beam
+TM20 Rage
+TM22 Solar Beam
+TM24 Thunderbolt
+TM25 Thunder
+TM26 Earthquake
+TM27 Fissure
+TM29 Psychic
+TM31 Mimic
+TM32 Double Team
+TM34 Bide
+TM40 Skull Bash
+TM44 Rest
+TM46 Psywave
+TM50 Substitute
+HM04 Strength
+
+
+？？？？コ / Gandesha
+0x3D
+Ground / Psychic
+6'06" / 330.6
+Rhydon
+Pidgeot Brown
+03 90 B0
+95 / 115 / 60 / 120 / 40
+Medium Fast
+45
+Victory Road Rare
+
+Psi Pokemon
+GANDESHA trains
+itself in body
+and mind in the
+ 
+mountains, waiting
+for a worthy foe
+
+Original movepool:
+- Confusion
+- Stomp
+- Meditate
+42 Recover
+47 Earthquake
+53 Amnesia
+60 Psychic
+
+Roaming Red adjusted movepool:
+- CONFUSION
+- STOMP
+- MEDITATE
+12 TELEPORT
+19 PSYBEAM
+25 BODY_SLAM
+32 RECOVER
+39 EARTHQUAKE
+44 AMNESIA
+50 PSYCHIC_M
+
+TM01 Mega Punch
+TM03 Swords Dance
+TM06 Toxic
+TM08 Body Slam
+TM09 Take Down
+TM10 Double Edge
+TM15 Hyper Beam
+TM16 Pay Day
+TM17 Submission
+TM18 Counter
+TM19 Seismic Toss
+TM20 Rage
+TM24 Thunderbolt
+TM25 Thunder
+TM26 Earthquake
+TM27 Fissure
+TM29 Psychic
+TM30 Teleport
+TM31 Mimic
+TM32 Double Team
+TM33 Reflect
+TM34 Bide
+TM35 Metronome
+TM38 Fire Blast
+TM42 Dream Eater
+TM44 Rest
+TM45 Thunder Wave
+TM46 Psywave
+TM48 Rock Slide
+TM49 Tri Attack
+TM50 Substitute
+HM04 Strength
+
+
+クロッキー / Kreep
+0x3E
+Water / Water
+4'01" / 106.0
+Rhydon
+Venusaur Green
+1C C6 F0
+60 / 100 / 63 / 85 / 82
+Medium Fast
+90
+Route 12/13 Fishing Rare
+
+Atrocious Pokemon
+A sneaky POKéMON.
+Stay away from
+rippling water if
+ 
+you want to avoid
+a KREEP chomping
+down on your legs
+
+Original movepool:
+- Bite
+- Leer
+17 Focus Energy
+22 Water Gun
+26 Hyper Fang
+32 Slash
+40 Screech
+45 Super Fang
+
+Roaming Red adjusted movepool:
+- BITE
+- LEER
+12 WATER_GUN	
+18 HYPER_FANG
+23 SCREECH
+27 SLASH	
+31 SUPER_FANG
+35 BODY_SLAM
+39 SWORDS_DANCE
+43 HYDRO_PUMP
+50 HYPER_BEAM
+
+TM03 Swords Dance
+TM05 Mega Kick
+TM06 Toxic
+TM08 Body Slam
+TM10 Double Edge
+TM11 Bubblebeam
+TM12 Water Gun
+TM13 Ice Beam
+TM14 Blizzard
+TM15 Hyper Beam
+TM20 Rage
+TM23 Dragon Rage
+TM28 Dig
+TM31 Mimic
+TM32 Double Team
+TM34 Bide
+TM39 Swift
+TM40 Skull Bash
+TM44 Rest
+TM46 Psywave
+TM50 Substitute
+HM01 Cut
+HM03 Surf
+
+
+カクタス / Needler
+0x43
+Grass / Grass
+4'08" / 88.2
+Vileplume
+Venusaur Green
+00 80 10
+80 / 100 / 50 / 110 / 80
+Medium Fast
+45
+Safari Zone Very Rare, Extremely Rare
+
+Poison Pin Pokemon
+Spines that fall
+from this POKéMON
+are sought after
+ 
+for their uses in
+acupuncture
+
+Original movepool:
+- Peck
+16 Growth
+21 Pin Missile
+26 Leer
+30 Leech Seed
+37 Vine Whip
+43 Spike Cannon
+
+Roaming Red adjusted movepool:
+- PECK
+- LEER
+13 GROWTH
+18 PIN_MISSILE
+24 VINE_WHIP
+29 SPIKE_CANNON
+33 RAZOR_LEAF
+37 LEECH_SEED
+43 LEECH_LIFE
+50 SWORDS_DANCE
+
+TM01 Mega Punch
+TM03 Swords Dance
+TM05 Mega Kick
+TM06 Toxic
+TM08 Body Slam
+TM09 Take Down
+TM10 Double Edge
+TM15 Hyper Beam
+TM17 Submission
+TM18 Counter
+TM20 Rage
+TM21 Mega Drain
+TM22 Solar Beam
+TM31 Mimic
+TM32 Double Team
+TM34 Bide
+TM39 Swift
+TM44 Rest
+TM50 Substitute
+HM01 Cut
+
+
+ジャッグ / Jawkraken
+0x44
+Water / Water
+11'6" / 257.9
+Seel
+Blastoise Blue
+12 13 FB
+100 / 115 / 65 / 80 / 55
+Slow
+45
+Route 19/20 Rare
+
+Drill Pokemon
+Broken horns and
+teeth lost after
+battles between
+ 
+JAWKRAKEN are
+collected and
+turned into tools	
+
+Original movepool:
+- Horn Attack
+- Supersonic
+- Leer
+27 Water Gun
+33 Sharpen
+39 Bite
+44 Hydro Pump
+51 Horn Drill
+
+Roaming Red adjusted movepool:
+- Horn Attack
+- Supersonic
+- Leer
+13 WATER_GUN
+18 SHARPEN
+22 BITE
+28 HORN_DRILL
+34 SWORDS_DANCE
+39 EARTHQUAKE
+44 HYDRO_PUMP
+50 HYPER_BEAM
+
+TM03 Swords Dance
+TM06 Toxic
+TM07 Horn Drill
+TM08 Body Slam
+TM10 Double-Edge
+TM11 Bubblebeam
+TM12 Water Gun
+TM13 Ice Beam
+TM14 Blizzard
+TM15 Hyper Beam
+TM20 Rage
+TM26 Earthquake
+TM31 Mimic
+TM32 Double Team
+TM34 Bide
+TM40 Skull Bash
+TM44 Rest
+TM50 Substitute
+HM01 Cut
+HM03 Surf
+HM04 Strength
+
+
+バルンダ / Orballoon
+0x51
+Flying / Flying
+1'08" / 2.4
+Voltorb
+Clefairy Pink
+0E E0 60
+120 / 60 / 65 / 95 / 40
+Fast
+30
+Route 7 Very Rare
+
+Balloon Pokemon
+If a single
+balloon falls from
+a group, it may
+ 
+be an ORBALLOON
+who mistook them
+for friends
+
+Original movepool:
+- Gust
+- Tail Whip
+- Whirlwind
+20 Sonicboom
+24 Minimize
+30 Recover
+34 Razor Wind
+42 Amnesia
+
+Roaming Red adjusted movepool:
+- Gust
+- Tail Whip
+- Whirlwind
+12 SONICBOOM
+17 PSYBEAM
+21 MINIMIZE
+28 RAZOR_WIND
+32 RECOVER	
+37 PSYCHIC_M
+41 FIRE_BLAST
+49 AMNESIA
+
+
+TM02 Razor Wind
+TM04 Whirlwind
+TM06 Toxic
+TM08 Body Slam
+TM10 Double-Edge
+TM15 Hyper Beam
+TM18 Counter
+TM24 Thunderbolt
+TM25 Thunder
+TM29 Psychic
+TM31 Mimic
+TM32 Double Team
+TM33 Reflect
+TM34 Bide
+TM36 Selfdestruct
+TM38 Fire Blast
+TM39 Swift
+TM44 Rest
+TM45 Thunder Wave
+TM46 Psywave
+TM50 Substitute
+HM02 Fly
+HM05 Flash
