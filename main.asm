@@ -2128,15 +2128,6 @@ INCLUDE "engine/evos_moves.asm"
 
 SECTION "Bank2E",ROMX,BANK[$2E]
 
-TajiriMonBaseStats::
-INCLUDE "data/baseStats/orballoon.asm" ; 152
-INCLUDE "data/baseStats/needler.asm" ; 153
-INCLUDE "data/baseStats/kreep.asm" ; 154
-INCLUDE "data/baseStats/buckstop.asm" ; 155
-INCLUDE "data/baseStats/roardan.asm" ; 156
-INCLUDE "data/baseStats/jawkraken.asm" ; 157
-INCLUDE "data/baseStats/gandesha.asm" ; 158
-
 OrballoonPicFront::    INCBIN "pic/bmon/orballoon.pic"
 OrballoonPicBack::     INCBIN "pic/monback/orballoon.pic"
 

@@ -582,8 +582,6 @@ GetMonHeader::
 	ld a,[wd11e]
 	cp a,0
 	jr z,.missingno
-	cp a, 152
-	jr nc, .tajiriMon
 	dec a
 	ld bc, MonBaseStatsEnd - MonBaseStats
 	ld hl,BaseStats
@@ -591,17 +589,6 @@ GetMonHeader::
 	ld de,wMonHeader
 	ld bc, MonBaseStatsEnd - MonBaseStats
 	call CopyData
-	jr .done
-.tajiriMon
-	ld b, 152
-	sub b 
-	ld bc, MonBaseStatsEnd - MonBaseStats
-	ld hl,TajiriMonBaseStats
-	call AddNTimes
-	ld de,wMonHeader
-	ld bc, MonBaseStatsEnd - MonBaseStats
-	ld a,BANK(TajiriMonBaseStats)
-	call FarCopyData
 	jr .done
 .specialID
 	ld hl,wMonHSpriteDim
