@@ -5,7 +5,7 @@ db 60 ; base defense
 db 40 ; base speed
 db 120 ; base special
 db GROUND ; species type 1
-db GROUND ; species type 2
+db PSYCHIC ; species type 2
 db 100 ; catch rate
 db 205 ; base exp yield
 INCBIN "pic/bmon/gandesha.pic",0,1 ; 55, sprite dimensions
