@@ -1,3 +1,4 @@
+RoardanBaseStats::
 db DEX_ROARDAN ; pokedex id
 db 105 ; base hp
 db 110 ; base attack
@@ -8,7 +9,7 @@ db DRAGON ; species type 1
 db DRAGON ; species type 2
 db 100 ; catch rate
 db 205 ; base exp yield
-INCBIN "pic/bmon/tangela.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/roardan.pic",0,1 ; 55, sprite dimensions
 dw RoardanPicFront
 dw RoardanPicBack
 ; attacks known at lvl 0
@@ -24,7 +25,5 @@ db 3 ; growth rate
 	tmlearn 17,18,19,22
 	tmlearn 23,24,25,26
 	tmlearn 27,30,31,33
-	tmlearn 37,38,39,43
-	tmlearn 44,47,49
-	tmlearn 50,52,53
+	tmlearn 37,38,39,43,44,47,49,50,52,53
 db 0 ; padding

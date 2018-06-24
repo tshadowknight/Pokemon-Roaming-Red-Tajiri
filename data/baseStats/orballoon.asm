@@ -8,7 +8,7 @@ db FLYING ; species type 1
 db FLYING ; species type 2
 db 120 ; catch rate
 db 100 ; base exp yield
-INCBIN "pic/bmon/tangela.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/orballoon.pic",0,1 ; 55, sprite dimensions
 dw OrballoonPicFront
 dw OrballoonPicBack
 ; attacks known at lvl 0
@@ -23,5 +23,6 @@ db 3 ; growth rate
 	tmlearn 24,28,30,31
 	tmlearn 32,33,35,37
 	tmlearn 38,43,44,45
-	tmlearn 49,51,54
+	tmlearn 49
+	tmlearn 51,54
 db 0 ; padding

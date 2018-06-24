@@ -8,7 +8,7 @@ db GRASS ; species type 1
 db GRASS ; species type 2
 db 100 ; catch rate
 db 205 ; base exp yield
-INCBIN "pic/bmon/tangela.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/needler.pic",0,1 ; 55, sprite dimensions
 dw NeedlerPicFront
 dw NeedlerPicBack
 ; attacks known at lvl 0
@@ -22,5 +22,7 @@ db 3 ; growth rate
 	tmlearn 7,8,9,14
 	tmlearn 16,17,19,20
 	tmlearn 21,30,31,33
-	tmlearn 38,43,49,50
+	tmlearn 38,43
+	tmlearn 49
+	tmlearn 50
 db 0 ; padding

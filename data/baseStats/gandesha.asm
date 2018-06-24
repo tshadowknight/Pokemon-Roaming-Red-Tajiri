@@ -8,7 +8,7 @@ db GROUND ; species type 1
 db GROUND ; species type 2
 db 100 ; catch rate
 db 205 ; base exp yield
-INCBIN "pic/bmon/tangela.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/gandesha.pic",0,1 ; 55, sprite dimensions
 dw GandeshaPicFront
 dw GandeshaPicBack
 ; attacks known at lvl 0
@@ -24,7 +24,5 @@ db 3 ; growth rate
 	tmlearn 23,24,25,26
 	tmlearn 28,29,30,31
 	tmlearn 32,33,34,37
-	tmlearn 41,43,44,45
-	tmlearn 47,48,49
-	tmlearn 53
+	tmlearn 41,43,44,45,47,48,49,53
 db 0 ; padding

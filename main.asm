@@ -2128,24 +2128,35 @@ INCLUDE "engine/evos_moves.asm"
 
 SECTION "Bank2E",ROMX,BANK[$2E]
 
-OrballoonPicFront::    INCBIN "pic/bmon/tangela.pic"
-OrballoonPicBack::     INCBIN "pic/bmon/tangela.pic"
+TajiriMonBaseStats::
+INCLUDE "data/baseStats/orballoon.asm" ; 152
+INCLUDE "data/baseStats/needler.asm" ; 153
+INCLUDE "data/baseStats/kreep.asm" ; 154
+INCLUDE "data/baseStats/buckstop.asm" ; 155
+INCLUDE "data/baseStats/roardan.asm" ; 156
+INCLUDE "data/baseStats/jawkraken.asm" ; 157
+INCLUDE "data/baseStats/gandesha.asm" ; 158
 
-NeedlerPicFront::    INCBIN "pic/bmon/tangela.pic"
-NeedlerPicBack::     INCBIN "pic/bmon/tangela.pic"
+OrballoonPicFront::    INCBIN "pic/bmon/orballoon.pic"
+OrballoonPicBack::     INCBIN "pic/monback/orballoon.pic"
 
-KreepPicFront::    INCBIN "pic/bmon/tangela.pic"
-KreepPicBack::     INCBIN "pic/bmon/tangela.pic"
+NeedlerPicFront::    INCBIN "pic/bmon/needler.pic"
+NeedlerPicBack::     INCBIN "pic/monback/needler.pic"
 
-BuckstopPicFront::    INCBIN "pic/bmon/tangela.pic"
-BuckstopPicBack::     INCBIN "pic/bmon/tangela.pic"
+KreepPicFront::    INCBIN "pic/bmon/kreep.pic"
+KreepPicBack::     INCBIN "pic/monback/kreep.pic"
 
-RoardanPicFront::    INCBIN "pic/bmon/tangela.pic"
-RoardanPicBack::     INCBIN "pic/bmon/tangela.pic"
+BuckstopPicFront::    INCBIN "pic/bmon/buckstop.pic"
+BuckstopPicBack::     INCBIN "pic/monback/buckstop.pic"
 
-JawkrakenPicFront::    INCBIN "pic/bmon/tangela.pic"
-JawkrakenPicBack::     INCBIN "pic/bmon/tangela.pic"
+RoardanPicFront::    INCBIN "pic/bmon/roardan.pic"
+RoardanPicBack::     INCBIN "pic/monback/roardan.pic"
 
-GandeshaPicFront::    INCBIN "pic/bmon/tangela.pic"
-GandeshaPicBack::     INCBIN "pic/bmon/tangela.pic"
+JawkrakenPicFront::    INCBIN "pic/bmon/jawkraken.pic"
+JawkrakenPicBack::     INCBIN "pic/monback/jawkraken.pic"
+
+GandeshaPicFront::    INCBIN "pic/bmon/gandesha.pic"
+GandeshaPicBack::     INCBIN "pic/monback/gandesha.pic"
+
+
 

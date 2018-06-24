@@ -582,6 +582,8 @@ GetMonHeader::
 	ld a,[wd11e]
 	cp a,0
 	jr z,.missingno
+	cp a, 152
+	jr nc, .tajiriMon
 	dec a
 	ld bc, MonBaseStatsEnd - MonBaseStats
 	ld hl,BaseStats
@@ -589,6 +591,17 @@ GetMonHeader::
 	ld de,wMonHeader
 	ld bc, MonBaseStatsEnd - MonBaseStats
 	call CopyData
+	jr .done
+.tajiriMon
+	ld b, 152
+	sub b 
+	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld hl,TajiriMonBaseStats
+	call AddNTimes
+	ld de,wMonHeader
+	ld bc, MonBaseStatsEnd - MonBaseStats
+	ld a,BANK(TajiriMonBaseStats)
+	call FarCopyData
 	jr .done
 .specialID
 	ld hl,wMonHSpriteDim
@@ -767,6 +780,30 @@ UncompressMonSprite::
 	jr z,.GotBank
 	ld a,b
 	cp ORBALLOON
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp NEEDLER
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp BUCKSTOP
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp KREEP
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp ROARDAN
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp JAWKRAKEN
+	ld a, BANK(OrballoonPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp GANDESHA
 	ld a, BANK(OrballoonPicFront)
 	jr z,.GotBank  	
 	ld a,b
