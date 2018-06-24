@@ -1508,3 +1508,70 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
+_RoardanDexEntry::
+	text "This POKéMON is"
+	next "usually very"
+	next "peaceful, but when"
+	 
+	page "provoked it"
+	next "becomes a force"
+	next "of nature"
+	dex
+
+_BuckstopDexEntry::	
+	text "For years BUCKSTOP"
+	next "was considered a"
+	next "myth, but then a"
+ 
+	page "large herd of them"
+	next "were found in the"
+	next "nothern woods"	
+	dex
+
+_GandeshaDexEntry::		
+	text "GANDESHA trains"
+	next "itself in body"
+	next "and mind in the"
+ 
+	page "mountains, waiting"
+	next "for a worthy foe"
+	dex
+
+_KreepDexEntry::		
+	text "A sneaky POKéMON."
+	next "Stay away from"
+	next "rippling water if"
+ 
+	page "you want to avoid"
+	next "a KREEP chomping"
+	next "down on your legs"	
+	dex
+
+_NeedlerDexEntry::
+	text "Spines that fall"
+	next "from this POKéMON"
+	next "are sought after"
+ 
+	page "for their uses in"
+	next "acupuncture"
+	dex
+
+_JawkrakenDexEntry::	
+	text "Broken horns and"
+	next "teeth lost after"
+	next "battles between"
+ 
+	page "JAWKRAKEN are"
+	next "collected and"
+	next "turned into tools"	
+	dex
+	
+_OrballoonDexEntry::	
+	text "If a single "
+	next "balloon falls from"
+	next "a group, it may"
+ 
+	page "be an ORBALLOON"
+	next "who mistook them"
+	next "for friends"	
+	dex
