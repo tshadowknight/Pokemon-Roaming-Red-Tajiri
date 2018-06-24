@@ -13,7 +13,7 @@ INCBIN "pic/bmon/roardan.pic",0,1 ; 55, sprite dimensions
 dw RoardanPicFront
 dw RoardanPicBack
 ; attacks known at lvl 0
-db DRAGON_RAGE
+db BITE
 db LEER
 db 0
 db 0

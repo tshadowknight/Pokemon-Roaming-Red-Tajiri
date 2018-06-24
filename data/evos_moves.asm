@@ -726,11 +726,14 @@ Mon152_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 20, SONICBOOM
-	db 24, MINIMIZE
-	db 30, RECOVER
-	db 34, RAZOR_WIND
-	db 42, AMNESIA
+	db 12, SONICBOOM
+	db 17, PSYBEAM
+	db 21, MINIMIZE
+	db 28, RAZOR_WIND
+	db 32, RECOVER	
+	db 37, PSYCHIC_M
+	db 41, FIRE_BLAST
+	db 49, AMNESIA
 	db 0
 
 Mon153_EvosMoves:
@@ -738,12 +741,14 @@ Mon153_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset	
-	db 16, GROWTH
-	db 21, PIN_MISSILE
-	db 26, LEER
-	db 30, LEECH_SEED
-	db 37, VINE_WHIP
-	db 43, SPIKE_CANNON
+	db 13, GROWTH
+	db 18, PIN_MISSILE
+	db 24, VINE_WHIP
+	db 29, SPIKE_CANNON
+	db 33, RAZOR_LEAF
+	db 37, LEECH_SEED
+	db 43, LEECH_LIFE
+	db 50, SWORDS_DANCE
 	db 0
 
 Mon058_EvosMoves:
@@ -1052,12 +1057,15 @@ Mon154_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 17, FOCUS_ENERGY
-	db 22, WATER_GUN
-	db 26, HYPER_FANG
-	db 32, SLASH
-	db 40, SCREECH
-	db 45, SUPER_FANG
+	db 12, WATER_GUN	
+	db 18, HYPER_FANG
+	db 23, SCREECH
+	db 27, SLASH	
+	db 31, SUPER_FANG
+	db 35, BODY_SLAM
+	db 39, SWORDS_DANCE
+	db 43, HYDRO_PUMP
+	db 50, HYPER_BEAM
 	db 0
 
 Mon126_EvosMoves:
@@ -1084,11 +1092,14 @@ Mon155_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 36, STOMP
-	db 40, LEER
-	db 44, AGILITY
-	db 49, THRASH
-	db 56, DOUBLE_EDGE
+	db 17, STOMP
+	db 21, AGILITY
+	db 27, THRASH
+	db 31, DOUBLE_EDGE
+	db 35, THUNDERBOLT
+	db 41, EARTHQUAKE
+	db 46, PSYCHIC_M
+	db 50, HYPER_BEAM
 	db 0
 
 Mon125_EvosMoves:
@@ -1147,12 +1158,14 @@ Mon156_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 28, BITE
-	db 35, SLASH
-	db 41, SCREECH
-	db 46, FLAMETHROWER
-	db 55, STOMP
-	db 64, HYPER_BEAM
+	db 13, EMBER
+	db 19, SLASH
+	db 23, SCREECH
+	db 28, BODY_SLAM
+	db 34, FLAMETHROWER
+	db 38, SWORDS_DANCE
+	db 42, EARTHQUAKE
+	db 50, HYPER_BEAM
 	db 0
 
 Mon056_EvosMoves:
@@ -1233,11 +1246,14 @@ Mon157_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 27, WATER_GUN
-	db 33, SHARPEN
-	db 39, BITE
+	db 13, WATER_GUN
+	db 18, SHARPEN
+	db 22, BITE
+	db 28, HORN_DRILL
+	db 34, SWORDS_DANCE
+	db 39, EARTHQUAKE
 	db 44, HYDRO_PUMP
-	db 51, HORN_DRILL
+	db 50, HYPER_BEAM
 	db 0
 
 Mon158_EvosMoves:
@@ -1245,10 +1261,13 @@ Mon158_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 42, RECOVER
-	db 47, EARTHQUAKE
-	db 53, AMNESIA
-	db 60, PSYCHIC
+	db 12, TELEPORT
+	db 19, PSYBEAM
+	db 25, BODY_SLAM
+	db 32, RECOVER
+	db 39, EARTHQUAKE
+	db 44, AMNESIA
+	db 50, PSYCHIC_M
 	db 0
 
 Mon159_EvosMoves:
