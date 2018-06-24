@@ -457,7 +457,7 @@ ChooseStarter:
 .pressedRightInStarterSelect
 	ld a, [wUnusedD08A]
 	add 1
-	cp 75
+	cp 82
 	jp nz, .noOverflow
 	ld a, 0
 .noOverflow	
@@ -467,7 +467,7 @@ ChooseStarter:
 	ld a, [wUnusedD08A]
 	sub 1
 	jp nc, .noUnderflow
-	ld a, 74
+	ld a, 81
 .noUnderflow	
 	ld [wUnusedD08A], a	
 	jp .drawSelectionScreen	
@@ -685,6 +685,13 @@ StarterPokemonIdxs:
 	db 171
 	db 132
 	db 88
+	db $1F
+	db $20
+	db $32
+	db $34
+	db $38
+	db $3D
+	db $3E
 StarterPokemonIdxs_end:		
 
 ; can't be bothered to implement a modulo right now
@@ -763,6 +770,13 @@ RandomStarterLookupTable:
 	db 72
 	db 73
 	db 74
+	db 75
+	db 76
+	db 77
+	db 78 
+	db 79
+	db 80
+	db 81 	
 	db 1
 	db 2
 	db 3
@@ -809,10 +823,3 @@ RandomStarterLookupTable:
 	db 44
 	db 45
 	db 46
-	db 47
-	db 48
-	db 49
-	db 50
-	db 51
-	db 52
-	db 53
