@@ -29,8 +29,8 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw OrballoonDexEntry
+	dw NeedlerDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -48,19 +48,19 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw KreepDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw BuckstopDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw RoardanDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw JawkrakenDexEntry
+	dw GandeshaDexEntry
 	dw MissingNoDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
@@ -1251,6 +1251,55 @@ VictreebelDexEntry:
 	dw 340
 	TX_FAR _VictreebelDexEntry
 	db "@"
+	
+RoardanDexEntry:
+	db "DRAGON@"
+	db 7,9
+	dw 5071
+	TX_FAR _RoardanDexEntry
+	db "@"
+	
+BuckstopDexEntry:
+	db "NEWSPECIES@"
+	db 4,4
+	dw 1896
+	TX_FAR _BuckstopDexEntry
+	db "@"
+	
+GandeshaDexEntry:
+	db "PSI@"
+	db 6,6
+	dw 3306
+	TX_FAR _GandeshaDexEntry
+	db "@"
+	
+KreepDexEntry:
+	db "ATROCIOUS@"
+	db 4,1
+	dw 1060
+	TX_FAR _KreepDexEntry
+	db "@"
+	
+NeedlerDexEntry:
+	db "POISON PIN@"
+	db 4,8
+	dw 882
+	TX_FAR _NeedlerDexEntry
+	db "@"
+	
+JawkrakenDexEntry:
+	db "DRILL@"
+	db 11,6
+	dw 2579
+	TX_FAR _JawkrakenDexEntry
+	db "@"
+	
+OrballoonDexEntry:	
+	db "BALLOON@"
+	db 1,8
+	dw 24
+	TX_FAR _OrballoonDexEntry
+	db "@"	
 
 MissingNoDexEntry:
 	db "???@"
