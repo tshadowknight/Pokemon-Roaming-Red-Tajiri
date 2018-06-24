@@ -22,7 +22,7 @@ ZoneMons2:
 	IF DEF(_BLUE)
 		db 30,NIDORINO
 	ENDC
-	db 32,VENOMOTH
+	db 32,NEEDLER
 	db 26,CHANSEY
 	db 28,TAUROS
 	db $00

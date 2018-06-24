@@ -17,7 +17,7 @@ Route23Mons:
 	IF !DEF(_RED)
 		db 41,SANDSLASH
 	ENDC
-	db 43,DITTO
-	db 41,FEAROW
+	db 43,BUCKSTOP
+	db 41,BUCKSTOP
 	db 43,FEAROW
 	db $00

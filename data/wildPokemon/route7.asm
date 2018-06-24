@@ -9,8 +9,8 @@ Route7Mons:
 		db 18,MANKEY
 		db 18,GROWLITHE
 		db 20,GROWLITHE
-		db 19,MANKEY
-		db 20,MANKEY
+		db 19,ORBALLOON
+		db 20,ORBALLOON
 	ENDC
 	IF DEF(_BLUE)
 		db 19,PIDGEY
@@ -21,7 +21,7 @@ Route7Mons:
 		db 18,MEOWTH
 		db 18,VULPIX
 		db 20,VULPIX
-		db 19,MEOWTH
-		db 20,MEOWTH
+		db 19,ORBALLOON
+		db 20,ORBALLOON
 	ENDC
 	db $00

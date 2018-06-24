@@ -30,8 +30,8 @@ WildDataPointers:
 	dw Route16Mons ; ROUTE_16
 	dw Route17Mons ; ROUTE_17
 	dw Route18Mons ; ROUTE_18
-	dw WaterMons   ; ROUTE_19
-	dw WaterMons   ; ROUTE_20
+	dw WaterMons_19_20   ; ROUTE_19
+	dw WaterMons_19_20   ; ROUTE_20
 	dw Route21Mons ; ROUTE_21
 	dw Route22Mons ; ROUTE_22
 	dw Route23Mons ; ROUTE_23

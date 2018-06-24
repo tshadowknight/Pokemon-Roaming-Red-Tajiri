@@ -13,6 +13,6 @@ DungeonMonsB1:
 		db 57,SANDSLASH
 	ENDC
 	db 65,DITTO
-	db 63,DITTO
-	db 67,DITTO
+	db 63,ROARDAN
+	db 67,ROARDAN
 	db $00

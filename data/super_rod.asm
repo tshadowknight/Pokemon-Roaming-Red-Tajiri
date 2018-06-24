@@ -12,8 +12,8 @@ SuperRodData:
 	dbw ROUTE_6, FishingGroup4
 	dbw ROUTE_10, FishingGroup5
 	dbw ROUTE_11, FishingGroup4
-	dbw ROUTE_12, FishingGroup7
-	dbw ROUTE_13, FishingGroup7
+	dbw ROUTE_12, FishingGroup11
+	dbw ROUTE_13, FishingGroup11
 	dbw ROUTE_17, FishingGroup7
 	dbw ROUTE_18, FishingGroup7
 	dbw ROUTE_19, FishingGroup8
@@ -98,3 +98,10 @@ FishingGroup10:
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP
+
+FishingGroup11:
+	db 4
+	db 30,KREEP
+	db 15,KRABBY
+	db 15,GOLDEEN
+	db 15,MAGIKARP		

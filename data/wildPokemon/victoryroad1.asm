@@ -1,5 +1,5 @@
 PlateauMons1:
-	db $0F
+	db $11
 	db 24,MACHOP
 	db 26,GEODUDE
 	db 22,ZUBAT
@@ -8,6 +8,8 @@ PlateauMons1:
 	db 42,ONIX
 	db 41,GRAVELER
 	db 41,GOLBAT
-	db 42,MACHOKE
-	db 43,MAROWAK
+	db 42,GANDESHA
+	db 43,GANDESHA
+	db 45,GANDESHA
+	db 45,GANDESHA
 	db $00
