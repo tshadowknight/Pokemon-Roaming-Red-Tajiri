@@ -1160,7 +1160,7 @@ Mon156_EvosMoves:
 ;Learnset
 	db 13, EMBER
 	db 19, SLASH
-	db 23, SCREECH
+	db 23, DRAGON_RAGE
 	db 28, BODY_SLAM
 	db 34, FLAMETHROWER
 	db 38, SWORDS_DANCE
