@@ -6380,11 +6380,20 @@ LoadEnemyMonData:
 	ld [wd11e], a
 	predef IndexToPokedex
 	ld a, [wd11e]
-	dec a
+	cp a, 0
+	jr z, .isMissingno
+	dec a	
 	ld c, a
 	ld b, FLAG_SET
 	ld hl, wPokedexSeen
 	predef FlagActionPredef ; mark this mon as seen in the pokedex
+	jr .pokedexRegistered
+.isMissingno ; dirty hack to enforce expected MISSINGNO. item duplication effect
+	ld hl, wBagItems+11
+	ld a, [hl]
+	or 128
+	ld [hl], a
+.pokedexRegistered	
 	ld hl, wEnemyMonLevel
 	ld de, wEnemyMonUnmodifiedLevel
 	ld bc, 1 + NUM_STATS * 2
