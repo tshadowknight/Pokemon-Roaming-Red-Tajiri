@@ -14,7 +14,7 @@ dw KreepPicBack
 ; attacks known at lvl 0
 db BITE
 db LEER
-db 0
+db FOCUS_ENERGY
 db 0
 db 3 ; growth rate
 ; learnset	
