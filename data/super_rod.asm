@@ -101,13 +101,6 @@ FishingGroup10:
 
 FishingGroup11:
 	db 4
-	db 30,KRABBY
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
-
-FishingGroup11:
-	db 4
 	db 30,KREEP
 	db 15,KRABBY
 	db 15,GOLDEEN

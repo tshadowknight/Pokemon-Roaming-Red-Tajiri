@@ -17,12 +17,12 @@ db LEER
 db FOCUS_ENERGY
 db 0
 db 3 ; growth rate
-; learnset	
-	tmlearn 2,4,5,7
-	tmlearn 9,10,11,12
-	tmlearn 13,14,19,22
-	tmlearn 27,30,31,33
-	tmlearn 38,39,43,45
-	tmlearn 49
-	tmlearn 50,52
+; learnset
+	tmlearn 3,5,6,8
+	tmlearn 9,10,11,12,13,14,15
+	tmlearn 20,23
+	tmlearn 28,31,32
+	tmlearn 34,39,40
+	tmlearn 44,46
+	tmlearn 50,51,53
 db 0 ; padding

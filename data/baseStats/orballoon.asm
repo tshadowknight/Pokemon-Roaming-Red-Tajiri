@@ -17,12 +17,12 @@ db TAIL_WHIP
 db WHIRLWIND
 db 0
 db 3 ; growth rate
-; learnset	
-	tmlearn 1,3,5,7
-	tmlearn 9,14,17,23
-	tmlearn 24,28,30,31
-	tmlearn 32,33,35,37
-	tmlearn 38,43,44,45
-	tmlearn 49
-	tmlearn 51,54
+; learnset
+	tmlearn 2,4,6,8
+	tmlearn 9,10,15
+	tmlearn 18,24
+	tmlearn 25,29,31,32
+	tmlearn 33,34,36,38
+	tmlearn 44,45,46
+	tmlearn 50,52,55
 db 0 ; padding

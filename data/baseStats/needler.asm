@@ -17,12 +17,12 @@ db LEER
 db 0
 db 0
 db 3 ; growth rate
-; learnset	
-	tmlearn 0,2,4,5
-	tmlearn 7,8,9,14
-	tmlearn 16,17,19,20
-	tmlearn 21,30,31,33
-	tmlearn 38,43
-	tmlearn 49
-	tmlearn 50
+; learnset
+	tmlearn 1,3,5,6,8
+	tmlearn 9,10,15
+	tmlearn 17,18,20,21,22
+	tmlearn 31,32
+	tmlearn 34,39
+	tmlearn 44
+	tmlearn 50,51
 db 0 ; padding

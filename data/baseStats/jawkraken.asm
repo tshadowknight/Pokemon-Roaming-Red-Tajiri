@@ -17,12 +17,12 @@ db SUPERSONIC
 db LEER
 db 0
 db 3 ; growth rate
-; learnset	
-	tmlearn 2,5,6,7
-	tmlearn 9,10,11,12
-	tmlearn 13,15,19,25
-	tmlearn 30,31,33,39
-	tmlearn 43,49
-	tmlearn 50
-	tmlearn 52,53
+; learnset
+	tmlearn 3,6,7,8
+	tmlearn 9,10,11,12,13,14,15
+	tmlearn 20
+	tmlearn 26,31,32
+	tmlearn 34,40
+	tmlearn 44
+	tmlearn 50,51,53,54
 db 0 ; padding

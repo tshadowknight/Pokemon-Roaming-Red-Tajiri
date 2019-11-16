@@ -17,12 +17,12 @@ db STOMP
 db MEDITATE
 db 0
 db 3 ; growth rate
-; learnset	
-	tmlearn 0,2,5,7
-	tmlearn 8,9,14,15
-	tmlearn 16,17,18,19
-	tmlearn 23,24,25,26
-	tmlearn 28,29,30,31
-	tmlearn 32,33,34,37
-	tmlearn 41,43,44,45,47,48,49,53
+; learnset
+	tmlearn 1,3,6,8
+	tmlearn 9,10,15,16
+	tmlearn 17,18,19,20,24
+	tmlearn 25,26,27,29,30,31,32
+	tmlearn 33,34,35,38
+	tmlearn 42,44,45,46,48
+	tmlearn 49,50,54
 db 0 ; padding
