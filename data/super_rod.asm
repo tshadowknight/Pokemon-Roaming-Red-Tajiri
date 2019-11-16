@@ -31,9 +31,9 @@ SuperRodData:
 	dbw SAFARI_ZONE_NORTH, FishingGroup6
 	dbw SAFARI_ZONE_WEST, FishingGroup6
 	dbw SAFARI_ZONE_CENTER, FishingGroup6
-	dbw UNKNOWN_DUNGEON_2, FishingGroup9
-	dbw UNKNOWN_DUNGEON_3, FishingGroup9
-	dbw UNKNOWN_DUNGEON_1, FishingGroup9
+	dbw UNKNOWN_DUNGEON_2, FishingGroup12
+	dbw UNKNOWN_DUNGEON_3, FishingGroup12
+	dbw UNKNOWN_DUNGEON_1, FishingGroup12
 	db $FF
 
 ; fishing groups
@@ -61,8 +61,8 @@ FishingGroup4:
 
 FishingGroup5:
 	db 2
-	db 23,POLIWHIRL
-	db 15,SLOWPOKE
+	db 23,MUK
+	db 15,GRIMER
 
 FishingGroup6:
 	db 4
@@ -95,6 +95,13 @@ FishingGroup9:
 FishingGroup10:
 	db 4
 	db 23,SEAKING
+	db 23,GYARADOS
+	db 15,KRABBY
+	db 15,GOLDEEN
+
+FishingGroup11:
+	db 4
+	db 30,KRABBY
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP
@@ -105,3 +112,11 @@ FishingGroup11:
 	db 15,KRABBY
 	db 15,GOLDEEN
 	db 15,MAGIKARP		
+
+FishingGroup12:
+	db 4
+	db 30,OMANYTE
+	db 30,KABUTO
+	db 23,GOLDUCK
+	db 23,SEADRA
+
