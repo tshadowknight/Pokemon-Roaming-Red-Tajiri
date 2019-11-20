@@ -9,4 +9,5 @@ IslandMonsB4:
 	db 29,SQUIRTLE
 	db 39,SQUIRTLE
 	db 32,JYNX
+	db 32,JYNX
 	db $00

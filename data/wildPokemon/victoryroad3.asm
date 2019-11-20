@@ -1,15 +1,13 @@
 PlateauMons3:
-	db $11
+	db $0F
 	db 24,MACHOP
 	db 26,GEODUDE
 	db 22,ZUBAT
 	db 42,ONIX
 	db 40,VENOMOTH
-	db 45,ONIX
+	db 45,GANDESHA
 	db 43,GRAVELER
 	db 41,GOLBAT
 	db 42,GANDESHA
-	db 45,GANDESHA
-	db 45,GANDESHA
 	db 45,GANDESHA
 	db $00
